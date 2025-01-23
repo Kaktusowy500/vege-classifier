@@ -28,3 +28,9 @@ This project uses deep learning to classify different types of vegetables.
     ```bash
     pip install -r requirements.txt
     ```
+### Run selected notebook
+The `vegetable_classification_demo` notebook serves as a demo that loads a pre-trained model and classifies a few example images.
+
+The `vegetable_classification` notebook is a complete project that loads a dataset, explores it, trains a neural network, and analyzes the results.
+
+To train the model yourself using the notebook, you'll need the dataset, which is available [here](https://www.kaggle.com/datasets/misrakahmed/vegetable-image-dataset). It must be unzipped and placed in the `data` directory.
